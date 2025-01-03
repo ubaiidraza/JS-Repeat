@@ -9,7 +9,7 @@ else if(num >= 30 && num <= 39 ){
     console.log('Ubaid ');
 }
 else if(num >= 40 && num <= 49 ){
-    console.log('Babar ');
+    console.log('ubdated');
 }
 else if(num >= 50 && num <= 59 ){
     console.log('C grade bana ha');
