@@ -6,10 +6,10 @@ if(num >= 1 && num <= 29 ){
     console.log('riksha chalaly bhai');
 }
 else if(num >= 30 && num <= 39 ){
-    console.log('Ubaid ');
+    console.log('bachat ho gai warna ricshaw diladyty abbu ');
 }
 else if(num >= 40 && num <= 49 ){
-    console.log('ubdated');
+    console.log('paas hogye ');
 }
 else if(num >= 50 && num <= 59 ){
     console.log('C grade bana ha');
