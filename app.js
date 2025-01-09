@@ -5,9 +5,9 @@ var num = + prompt ();
 if(num >= 1 && num <= 29 ){
     console.log('riksha chalaly bhai');
 }
-// else if(num >= 30 && num <= 39 ){
-//     console.log('bachat ho gai warna ricshaw diladyty abbu ');
-// }
+else if(num >= 30 && num <= 39 ){
+    console.log('bachat ho gai warna ricshaw diladyty abbu ');
+}
 else if(num >= 40 && num <= 49 ){
     console.log('paas hogye ');
 }
