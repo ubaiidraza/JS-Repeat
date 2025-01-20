@@ -54,3 +54,43 @@ const greet = function () {
 const greet = () => {
   console.log("Hello!");
 };
+6. What is an array? How do you create one?
+Answer:
+An array is a collection of elements stored in a single variable.
+
+javascript
+Copy
+Edit
+const fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits[0]); // Accesses "Apple"
+7. What is the difference between null and undefined?
+Answer:
+
+undefined: A variable is declared but not assigned a value.
+null: Intentionally assigned to a variable to represent "no value."
+8. What are JavaScript objects?
+Answer:
+Objects are collections of key-value pairs.
+
+javascript
+Copy
+Edit
+const person = {
+  name: "John",
+  age: 25,
+};
+console.log(person.name); // "John"
+9. What is the DOM?
+Answer:
+The Document Object Model (DOM) is a programming interface that represents the structure of an HTML document. It allows JavaScript to manipulate elements dynamically.
+
+10. What are events in JavaScript?
+Answer:
+Events are actions or occurrences (like clicks, hovers) that JavaScript can respond to.
+
+javascript
+Copy
+Edit
+document.getElementById("btn").addEventListener("click", function () {
+  alert("Button clicked!");
+});
