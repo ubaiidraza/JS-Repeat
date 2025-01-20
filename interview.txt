@@ -1,7 +1,7 @@
 1. What is JavaScript?
 Answer:
 JavaScript is a lightweight, interpreted, or just-in-time compiled programming language used to create interactive effects on web pages. It is primarily used for client-side development but can also be used on the server side with environments like Node.js.
-
+ 
 2. What are variables in JavaScript? How do you declare them?
 Answer:
 Variables are containers for storing data values.
@@ -94,3 +94,51 @@ Edit
 document.getElementById("btn").addEventListener("click", function () {
   alert("Button clicked!");
 });
+11. What is the difference between var, let, and const?
+Answer:
+
+var: Function-scoped, hoisted, allows redeclaration.
+let: Block-scoped, not hoisted, no redeclaration.
+const: Block-scoped, must be initialized, no reassignment.
+12. What is hoisting in JavaScript?
+Answer:
+Hoisting is a mechanism where variable and function declarations are moved to the top of their scope before execution.
+
+javascript
+Copy
+Edit
+console.log(x); // undefined
+var x = 5;
+13. Explain closures in JavaScript.
+Answer:
+A closure is a function that retains access to its outer scope even after the outer function has executed.
+
+javascript
+Copy
+Edit
+function outer() {
+  let count = 0;
+  return function () {
+    count++;
+    console.log(count);
+  };
+}
+
+const counter = outer();
+counter(); // 1
+counter(); // 2
+14. What is the this keyword in JavaScript?
+Answer:
+this refers to the object that is currently executing the code. Its value depends on how the function is called.
+
+15. What is the difference between map() and forEach()?
+Answer:
+
+map(): Creates a new array by applying a function to each element.
+forEach(): Iterates over an array but doesn’t return a new array.
+javascript
+Copy
+Edit
+const nums = [1, 2, 3];
+const doubled = nums.map(num => num * 2); // [2, 4, 6]
+nums.forEach(num => console.log(num)); // Logs: 1, 2, 3
