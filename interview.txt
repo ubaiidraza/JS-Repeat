@@ -142,3 +142,49 @@ Edit
 const nums = [1, 2, 3];
 const doubled = nums.map(num => num * 2); // [2, 4, 6]
 nums.forEach(num => console.log(num)); // Logs: 1, 2, 3
+  16. What is the difference between call(), apply(), and bind()?
+Answer:
+
+call(): Invokes a function with arguments passed individually.
+apply(): Invokes a function with arguments passed as an array.
+bind(): Returns a new function with this bound to a specified object.
+17. What is asynchronous programming in JavaScript?
+Answer:
+Asynchronous programming allows non-blocking code execution. Examples include callbacks, promises, and async/await.
+
+18. What are promises in JavaScript?
+Answer:
+Promises represent the eventual completion (or failure) of an asynchronous operation.
+
+javascript
+Copy
+Edit
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("Success"), 1000);
+});
+
+promise.then((res) => console.log(res)); // Logs: "Success"
+19. What is the purpose of async/await?
+Answer:
+async/await makes asynchronous code look synchronous and easier to read.
+
+javascript
+Copy
+Edit
+async function fetchData() {
+  const data = await fetch("https://api.example.com");
+  console.log(await data.json());
+}
+20. How do you handle errors in JavaScript?
+Answer:
+You can handle errors using try...catch.
+
+javascript
+Copy
+Edit
+try {
+  let x = y; // y is not defined
+} catch (error) {
+  console.log("Error:", error.message);
+}
+
