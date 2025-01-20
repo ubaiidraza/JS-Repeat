@@ -1,0 +1,56 @@
+1. What is JavaScript?
+Answer:
+JavaScript is a lightweight, interpreted, or just-in-time compiled programming language used to create interactive effects on web pages. It is primarily used for client-side development but can also be used on the server side with environments like Node.js.
+
+2. What are variables in JavaScript? How do you declare them?
+Answer:
+Variables are containers for storing data values.
+You can declare variables using:
+
+var (function-scoped, old way)
+let (block-scoped, modern)
+const (block-scoped, constant)
+javascript
+Copy
+Edit
+let x = 10; 
+const y = 20; 
+var z = 30;
+3. What are data types in JavaScript?
+Answer:
+JavaScript has the following data types:
+
+Primitive: String, Number, Boolean, Undefined, Null, Symbol, BigInt
+Non-Primitive: Object (Arrays, Functions, etc.)
+4. What is the difference between == and ===?
+Answer:
+
+== compares values only (type coercion occurs).
+=== compares both values and types (strict equality).
+javascript
+Copy
+Edit
+5 == "5";   // true
+5 === "5";  // false
+5. What are JavaScript functions? How do you define them?
+Answer:
+Functions are blocks of reusable code that perform a specific task.
+You can define functions as:
+
+javascript
+Copy
+Edit
+// Function Declaration
+function greet() {
+  console.log("Hello!");
+}
+
+// Function Expression
+const greet = function () {
+  console.log("Hello!");
+};
+
+// Arrow Function
+const greet = () => {
+  console.log("Hello!");
+};
