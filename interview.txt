@@ -1,4 +1,4 @@
- 1. What is JavaScript?
+  1. What is JavaScript?
 Answer:
 JavaScript is a lightweight, interpreted, or just-in-time compiled programming language used to create interactive effects on web pages. It is primarily used for client-side development but can also be used on the server side with environments like Node.js.
  
@@ -203,5 +203,42 @@ Shallow copy aur deep copy ka kya farq hai? Implement kaise karte hain?
 JavaScript main null aur undefined ka difference kya hai?
 Type coercion kya hota hai aur == aur === kaise kaam karte hain?
 Symbol type kya hai aur iska use case kya hai?
-Floating-point arithmetic errors ko kaise solve karte hain? (e.g., 0.1 + 0.2 !== 0.3)
+Floating-point arithmetic errors ko kaise solve karte hain? (e.g., 0.1 + 0.2 !== 0.3) 
+3. Asynchronous Programming
+Microtasks aur macrotasks ka kya farq hai? Examples ke saath samjhao.
+Debouncing aur throttling mein kya difference hai?
+Web workers kya hain aur ye performance kaise improve karte hain?
+Agar ek promise main dono resolve aur reject call ho jayein to kya hoga?
+Promise.all, Promise.race, aur Promise.allSettled kaise kaam karte hain?
+4. Object-Oriented Programming
+ES6 classes ka use kar ke inheritance kaise implement karte hain?
+JavaScript main getters aur setters ka kya role hai?
+super keyword kaise kaam karta hai?
+Singleton pattern kaise implement karte hain?
+Modern JavaScript main private methods aur properties kaise define karte hain?
+5. Performance Optimization
+Memory leaks kya hain aur inhe avoid kaise karte hain?
+requestAnimationFrame ka kya fayda hai animations ke liye?
+JavaScript code ko optimize karne ke kuch techniques batao.
+Lazy-loading kaise implement karte hain?
+Tree shaking kya hota hai aur isse bundling kaise efficient banti hai?
+6. DOM Manipulation and Events
+Event delegation kya hota hai aur direct event handling se better kyu hai?
+Event listeners main this ka behavior kaise hota hai?
+Capturing aur bubbling phases ka difference kya hai?
+Custom events kaise banate hain?
+DOMContentLoaded aur load events ka farq kya hai?
+7. Miscellaneous Topics
+JavaScript module system kaise kaam karta hai? CommonJS aur ES6 modules ka comparison karo.
+CORS kya hai aur iska JavaScript applications par kya impact hota hai?
+Proxy objects kya hote hain aur inka use case kya hai?
+Circular references kaise detect aur handle karte hain?
+with statement kya hai aur ye discouraged kyu hota hai?
+8. Problem-Solving Challenges
+Ek debounce function implement karo.
+Promise.all ka polyfill likho.
+Ek memoization function banao jo expensive computations optimize kare.
+Nested array ko flatten karne ka function likho.
+Custom deep comparison function banao jo do objects ko compare kare.
+
 
