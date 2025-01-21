@@ -1,4 +1,4 @@
-1. What is JavaScript?
+ 1. What is JavaScript?
 Answer:
 JavaScript is a lightweight, interpreted, or just-in-time compiled programming language used to create interactive effects on web pages. It is primarily used for client-side development but can also be used on the server side with environments like Node.js.
  
@@ -186,5 +186,22 @@ try {
   let x = y; // y is not defined
 } catch (error) {
   console.log("Error:", error.message);
-}
+}     
+1. JavaScript Core Concepts
+var, let, aur const ka kya farq hai? Aur inka scoping kaise kaam karta hai?
+JavaScript main hoisting kya hoti hai?
+Closure kya hai aur isse kaise use karte hain?
+Event loop kya hai aur JavaScript asynchronous kaam kaise handle karta hai?
+Promises aur async/await ka farq kya hai?
+call, apply, aur bind functions kaise kaam karte hain? Examples do.
+JavaScript main prototype inheritance kya hoti hai?
+Generator functions kya hoti hain aur ye normal functions se kaise different hain?
+WeakMap aur WeakSet kya hain aur inka Map aur Set se comparison karo.
+'use strict' mode ka kya role hai aur ye behavior kaise change karta hai?
+2. Advanced Data Structures and Types
+Shallow copy aur deep copy ka kya farq hai? Implement kaise karte hain?
+JavaScript main null aur undefined ka difference kya hai?
+Type coercion kya hota hai aur == aur === kaise kaam karte hain?
+Symbol type kya hai aur iska use case kya hai?
+Floating-point arithmetic errors ko kaise solve karte hain? (e.g., 0.1 + 0.2 !== 0.3)
 
